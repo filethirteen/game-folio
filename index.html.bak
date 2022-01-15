@@ -207,10 +207,6 @@ body, html {
 	</div>
 
 	<div class="w3-col m3">
-		<video style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" src="./videos/huntress-remake.mp4" title="A huntress of the hollow remake (art by Bleet)" type="video/mp4" controls=""></video>
-	</div>
-
-	<div class="w3-col m3">
 		<video style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" src="./videos/therians.mp4" title="A quick prototype whipped up from concept art" type="video/mp4" controls=""></video>
 	</div>
 
