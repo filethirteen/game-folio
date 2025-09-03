@@ -7,17 +7,6 @@
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
-  
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-7YKJVL3PQC"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-7YKJVL3PQC');
-</script>
-
   <body>
     <div id="unity-container" class="unity-desktop">
       <canvas id="unity-canvas" width=960 height=600 tabindex="-1"></canvas>
@@ -63,12 +52,12 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/Web.loader.js";
+      var loaderUrl = buildUrl + "/book-henge.loader.js";
       var config = {
         arguments: [],
-        dataUrl: buildUrl + "/Web.data.unityweb",
-        frameworkUrl: buildUrl + "/Web.framework.js.unityweb",
-        codeUrl: buildUrl + "/Web.wasm.unityweb",
+        dataUrl: buildUrl + "/book-henge.data.unityweb",
+        frameworkUrl: buildUrl + "/book-henge.framework.js.unityweb",
+        codeUrl: buildUrl + "/book-henge.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Axios Interactive LLC",
         productName: "BookHenge",
